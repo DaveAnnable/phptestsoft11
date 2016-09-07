@@ -4,7 +4,8 @@ class Json
 {
 	public function encode($data)
 	{
-		return json_encode($data);
+		print_r($data);
+		//return json_encode($data);
 	}
 
 	public function decode($data)
